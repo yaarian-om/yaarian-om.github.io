@@ -4532,7 +4532,7 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .tagcloud {
         color: #FF5B00;
     }
