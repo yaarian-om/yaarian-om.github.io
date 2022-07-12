@@ -4450,11 +4450,12 @@ body {
     display: inline-block;
     top: 100px;
     left: auto;
-    right: auto;
+    right: 32%;
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+    margin-bottom: 50%;
 }
 
 
