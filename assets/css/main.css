@@ -4454,7 +4454,7 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: auto;
     margin-bottom: 50%;
 }
 
