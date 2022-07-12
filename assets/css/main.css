@@ -4453,6 +4453,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     margin-bottom: 70px;
+    position: relative;
 }
 
 
@@ -4468,6 +4469,7 @@ body {
 
 @media screen and (min-width: 411px) {
     .tagcloud {
+        top: 100px;
         left: -40px;
         font-size: 14px;
     }
@@ -4475,6 +4477,7 @@ body {
 
 @media screen and (min-width: 511px) {
     .tagcloud {
+        top: 100px;
         left: 20%;
         font-size: 16px;
     }
@@ -4503,14 +4506,14 @@ body {
 
 @media screen and (min-width: 1024px) {
     .tagcloud {
-        left: 28%;
+        margin-left: 30%;
         font-size: 20px;
     }
 }
 
 @media screen and (min-width: 393px) {
     .tagcloud {
-        left: -58px;
+        margin-left: 2%;
         font-size: 10px;
     }
 }
@@ -4522,7 +4525,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1120px) {
     .tagcloud {
         left: 32%;
         font-size: 20px;
