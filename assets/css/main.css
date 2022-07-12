@@ -4446,16 +4446,13 @@ body {
 /* Applying CSS to sphere */
 
 .tagcloud {
-    align-items: inherit;
     display: inline-block;
     top: 100px;
-    left: auto;
-    right: 20%;
+    left: 32%;
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
-    font-size: auto;
-    margin-bottom: 50%;
+    font-size: 20px;
 }
 
 
@@ -4467,8 +4464,4 @@ body {
 
 #skillChart {
     margin-bottom: 10rem;
-}
-
-.sphereAlign {
-    align-items: center;
 }
