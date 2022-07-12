@@ -52,27 +52,71 @@
                     </h1>
                 </header>
 
+                <div id="skillChart">
+                    <span class="Sphere"></span>
+
+                    <!-- Including the TagCloud.js script CDN in the document    -->
+                    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js">
+                    </script>
+                    <script>
+                        const Texts = [
+                            '  JAVA  ', '  C++  ', '  C  ',
+                            '  C#  ', '  PYTHON  ', '  MYSQL  ',
+                            '  HTML  ', '  CSS  ',
+                            '  ANDROID  ', '  VISUAL STUDIO  ', '  LATEX  ',
+                            '  .NET  ', '  DATA STRUCTURE  ',
+                            '  VS CODE  ',
+                            '  ANDROID STUDIO  ', '  PYCHARM  ', '  NETBEANS  '
+                        ];
+
+                        var tagCloud = TagCloud('.Sphere', Texts, {
+
+                            // Sphere radius in px
+                            radius: 230,
+
+                            // animation speed
+                            // slow, normal, fast
+                            maxSpeed: 'normal',
+                            initSpeed: 'fast',
+
+                            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+                            direction: 135,
+
+                            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+                            keep: true
+
+                        });
+
+                        // Giving color to each text in sphere
+                        var color = '#5FD068 ';
+                        document.querySelector('.Sphere').style.color = color;
+                    </script>
+                </div>
+
 
                 <!-- Preformatted Code -->
                 <h2>LIFE MOTTO</h2>
                 <pre><code class="motto" class="white">
-<span class="white">bool dead</span> <b><span class="pink">=</span></b> <b><span class="violet">false</span></b>;
-<b><span class="cyan">void</span></b> <span class="white">goDeeper()</span>
-<span class="white">{</span>
-    <b><span class="pink">if</span></b>(<span class="white">dead </span><b><span class="pink">==</span></b><span class="white"> true</span>)
-    <b><span class="pink">return</span></b><span class="white">;</span>
-    <span class="white">goDeeper();</span>
-}
-<b><span class="cyan">int</span></b> <span class="white">main(</span><b><span class="cyan">void</span></b><span class="white">)</span>
-<span class="white">{</span>
-    <span class="white">goDeeper();</span>
-<span class="white">}</span>
+                    <span class="white">bool dead</span> <b><span class="pink">=</span></b> <b><span class="violet">false</span></b>;
+                    <b><span class="cyan">void</span></b> <span class="white">goDeeper()</span>
+                    <span class="white">{</span>
+                        <b><span class="pink">if</span></b>(<span class="white">dead </span><b><span class="pink">==</span></b><span class="white"> true</span>)
+                        <b><span class="pink">return</span></b><span class="white">;</span>
+                        <span class="white">goDeeper();</span>
+                    }
+                    <b><span class="cyan">int</span></b> <span class="white">main(</span><b><span class="cyan">void</span></b><span class="white">)</span>
+                    <span class="white">{</span>
+                        <span class="white">goDeeper();</span>
+                    <span class="white">}</span>
 
-</code></pre>
+                </code></pre>
 
             </section>
 
         </div>
+
+
+
 
         <!-- Footer -->
         <footer id="footer">
