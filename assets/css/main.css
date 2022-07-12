@@ -4499,7 +4499,7 @@ body {
 
 @media screen and (min-width: 818px) {
     .tagcloud {
-        margin-left: 28%;
+        margin-left: 27%;
         font-size: 10px;
     }
 }
@@ -4514,7 +4514,7 @@ body {
 @media screen and (min-width: 393px) {
     .tagcloud {
         margin-left: 2%;
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
