@@ -4447,12 +4447,12 @@ body {
 
 .tagcloud {
     display: inline-block;
-    top: 100px;
-    left: 32%;
+    top: 1vw;
+    left: 20vw;
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 
