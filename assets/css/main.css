@@ -4470,7 +4470,7 @@ body {
 @media screen and (min-width: 411px) {
     .tagcloud {
         top: 100px;
-        left: -40px;
+        margin-left: -40px;
         font-size: 14px;
     }
 }
@@ -4478,28 +4478,28 @@ body {
 @media screen and (min-width: 511px) {
     .tagcloud {
         top: 100px;
-        left: 20%;
+        margin-left: 20%;
         font-size: 16px;
     }
 }
 
 @media screen and (min-width: 611px) {
     .tagcloud {
-        left: 20%;
+        margin-left: 20%;
         font-size: 18px;
     }
 }
 
 @media screen and (min-width: 715px) {
     .tagcloud {
-        left: 20%;
+        margin-left: 20%;
         font-size: 16px;
     }
 }
 
 @media screen and (min-width: 818px) {
     .tagcloud {
-        left: 28%;
+        margin-left: 28%;
         font-size: 10px;
     }
 }
@@ -4514,13 +4514,13 @@ body {
 @media screen and (min-width: 393px) {
     .tagcloud {
         margin-left: 2%;
-        font-size: 10px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 320px) {
     .tagcloud {
-        left: -58px;
+        margin-left: -62px;
         font-size: 10px;
     }
 }
