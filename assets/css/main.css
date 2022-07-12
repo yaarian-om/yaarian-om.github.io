@@ -4448,11 +4448,11 @@ body {
 .tagcloud {
     display: inline-block;
     top: 100px;
-    left: 32%;
     font-weight: bold;
     letter-spacing: 1px;
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+    margin-bottom: 70px;
 }
 
 
@@ -4464,4 +4464,66 @@ body {
 
 #skillChart {
     margin-bottom: 10rem;
+}
+
+@media screen and (min-width: 411px) {
+    .tagcloud {
+        left: -40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 511px) {
+    .tagcloud {
+        left: 20%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 611px) {
+    .tagcloud {
+        left: 20%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 715px) {
+    .tagcloud {
+        left: 20%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 818px) {
+    .tagcloud {
+        left: 28%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tagcloud {
+        left: 28%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 393px) {
+    .tagcloud {
+        left: -58px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .tagcloud {
+        left: -58px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tagcloud {
+        left: 32%;
+    }
 }
