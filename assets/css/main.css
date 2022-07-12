@@ -4427,9 +4427,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     color: #f81f67;
 }
 
-.white {
-    color: #f7f7f1;
-}
+.white {}
 
 #myCanvas {
     margin: auto;
